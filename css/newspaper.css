@@ -1,0 +1,160 @@
+/* Reset CSS */
+
+html,body,h1,h2,h3,h4,h5,h6,p,ol,ul,li,pre,code,div,form,
+fieldset,blockquote,header,footer,div,aside,nav,div,a{
+  padding: 0;
+  margin: 0;
+  font-size: 100%;
+  font-weight: normal;
+}
+
+table{
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+td, th, caption{
+  font-weight: normal;
+  text-align: left;
+}
+
+ol{
+  margin-left: 1.4em;
+  list-style: decimal;
+}
+
+ul{
+  margin-left: 1.4em;
+  list-style: square;
+}
+
+img, fieldset{
+  border: 0;
+}
+
+q:before, q:after{
+  content: '';
+}
+
+/* ================================================================================================================= */
+
+/* by here is reset CSS */
+
+div{
+  float: left;
+  margin-top: 1vw;
+}  
+
+
+#newspaper_name{
+  width: 100vw;
+  height: 10vh;
+  background-color: skyblue;
+  font-size: 4vw;
+  text-align: center;
+  margin-top: 0;
+}
+
+
+#ephemeris{
+  width: 20vw;
+  height: 50vh;
+
+}
+
+
+#ephemeris li{
+  height: 20vh;
+  background-image: url(C:/Users/mellisos/Desktop/Programming/HTML_CSS_JS/newspaper/images/perg_medio.jpg);
+  background-repeat: repeat-y;
+  background-position: top center;
+  text-align: center;
+  font-size: 1vw;
+  list-style: none;
+
+}
+
+#ephemeris header{
+  background-image: url(C:/Users/mellisos/Desktop/Programming/HTML_CSS_JS/newspaper/images/perg-sup.jpg);
+  background-repeat: no-repeat;
+  background-position: top bottom;  
+  background-position: 1.9vw 0;
+  text-align: center;
+  font-size: 1.6vw;
+
+}
+
+#ephemeris.end{
+  background-image: url(C:/Users/mellisos/Desktop/Programming/HTML_CSS_JS/newspaper/images/perg-inf.jpg);
+  background-repeat: no-repeat;
+}
+
+.news{
+  width: 78vw;
+  height: 40vh;
+  background-color:wheat;
+}
+
+.news_police{
+  width: 20vw;
+  height: 80vh;
+  background-color:skyblue;
+}
+
+.news_sport{
+  width: 20vw;
+  height: 80vh;
+  background-color:greenyellow;
+}
+
+.news_science{
+  width: 20vw;
+  height: 80vh;
+  background-color: goldenrod;
+}
+
+#newspaper_footer{
+  background-color: aqua;
+  margin-top: 15vh;
+}
+
+
+
+@font-face{
+  font-family: 'my_underwoodregular';
+   
+  src: url('MyUnderwood-webfont.eot');
+  src: url('MyUnderwood-webfont.eot?#iefix') format('embedded-opentype'),
+       url('MyUnderwood-webfont.woff2') format('woff2'),
+       url('MyUnderwood-webfont.woff') format('woff'),
+       url('MyUnderwood-webfont.ttf') format('truetype'),
+       url('MyUnderwood-webfont.svg#my_underwoodregular') format('svg');
+  font-weight: normal;
+  font-style: normal;
+
+}
+
+body{
+  font-family: 'My underwood'
+}
+
+
+#img-blur{
+  filter: blur(5px);
+}
+
+#img-saturate{
+  filter: saturate(30%);
+}
+
+#img-shadow{
+  filter: drop-shadow(5px 5px 5px gray);
+}
+
+#img-sepia{
+  filter: sepia(100%);
+}
+
+#img-brightness{
+  filter: brightness(150%);
+}
